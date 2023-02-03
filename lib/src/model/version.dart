@@ -8,7 +8,8 @@ class PlatformVersionMatcher {
       }
       if (platformVersion.versionCode == null ||
           platformVersion.versionCode!.isEmpty) {
-        return false;
+        //return false;
+        return true;
       }
     } catch (e) {
       return false;
